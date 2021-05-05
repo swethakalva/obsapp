@@ -23,11 +23,11 @@
     height: 140px;
 }
 
-.dashboard-tails a.tails:hover {
-    cursor: pointer;
-    color: #ffffff;
-    text-decoration: none;
-}
+    .dashboard-tails a.tails:hover, .dashboard-tails a.tails:active{
+        cursor: pointer;
+        color: #ffffff;
+        text-decoration: none;
+    }
 
 .dashboard-tails .tails h2 {
     margin-top: 35px;
